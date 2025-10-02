@@ -11,9 +11,9 @@ function Home() {
         //<Isi />
       //</div>
    // );
-   return <h1 class="text-3x1 font-bold underline"> 
-   Hello 
-</h1>
+   return <h1 class="text-3x1 font-bold underline"> Hello </h1>
+
+
   }
   
   function Judul() {

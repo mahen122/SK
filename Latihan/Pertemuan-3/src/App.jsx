@@ -1,10 +1,8 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import Home from './pages/Home.jsx';
-import './App.css'
+import { RouterProvider } from "react-router-dom";
+import router from "./router/routes";
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <Home />
-  </StrictMode>
-);
+function App() {
+  return <RouterProvider router={router} />;
+}
+
+export default App;
